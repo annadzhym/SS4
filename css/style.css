@@ -2449,6 +2449,9 @@ ul.cat li a:hover {
 	.accordion-container {
 		display: flex;
 	}
+    #contacts-form {
+        display: flex;
+    }
 }
 @media screen and (min-width: 1600px )  {
 	.main-menu ul li a {
