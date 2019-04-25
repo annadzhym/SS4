@@ -2422,10 +2422,6 @@ ul.cat li a:hover {
 }
 
 
-
-
-
-
 @media screen and (min-width: 601px ) and (max-width: 991px) {
 	.logo {
 		width: 7%;
@@ -2444,7 +2440,7 @@ ul.cat li a:hover {
 
 @media screen and (min-width: 992px) {
 	.logo {
-		width: 35%;
+		width: 70%;
 	}
 	.accordion-container {
 		display: flex;

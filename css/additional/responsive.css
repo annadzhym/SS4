@@ -4,7 +4,7 @@
 	padding: 40px 15px;
 }
 .main-menu ul li a {
-	padding: 20px 17px;
+	padding: 6px 17px;
 }
 .single-slider {
 	min-height: 650px;
@@ -33,11 +33,7 @@
 
 }
 
-@media (min-width: 992px) {
-	.latest-news {
-		display: flex;
-	}
-}
+
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
 .header-area {
