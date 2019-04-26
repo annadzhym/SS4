@@ -3,7 +3,7 @@
 -----------------------------------
 1. Theme default css
 2. header
-3. slider
+3. images
 4. about
 5. portfolio-area
 6. work-process
@@ -402,7 +402,7 @@ div.row.center-align {
 }
 
 
-/* 3. slider */
+/* 3. images */
 
 .single-slider {
 	min-height: 1000px;
@@ -1009,13 +1009,17 @@ div.row.center-align {
 
 .news-cat span {
 	font-size: 14px;
-	color: #f69a2b ;
+	color: #ffffff ;
 	font-weight: 500;
 	margin-right: 20px;
+    background-color: rgba(29,28,46, 0.5);
+    border-radius: 10px;
+    padding: 5px 10px;
 }
 
-.news-cat span:hover {
-	color: #83d179;
+h1, p, .service-price:hover, .news-cat span:hover {
+	cursor: default;
+
 }
 
 .news-title {
@@ -1024,7 +1028,7 @@ div.row.center-align {
 }
 
 .news-title:hover {
-	color: #83d179;
+	color: #9e0c0c;
 }
 
 .news-meta {
@@ -1398,7 +1402,7 @@ ul.service-list li {
 	box-shadow: 0 0 60px 0 rgba(0, 0, 0, .07);
 	-webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
 	border-bottom: 2px solid #1d1c2e;
-	padding-bottom: 10px;
+	padding-bottom: 30px;
 }
 
 .news__thumb:before {
@@ -2424,13 +2428,25 @@ ul.cat li a:hover {
 
 @media screen and (min-width: 601px ) and (max-width: 991px) {
 	.logo {
-		width: 7%;
+		width: 16%;
 	}
+    .service-img {
+        height: 200px;
+    }
 }
+@media screen and (min-width: 767px ) and (max-width: 991px) {
+    .logo {
+        width: 13%;
+    }
+}
+
 @media screen and (min-width: 300px ) and (max-width: 600px) {
 	.logo {
-		width: 12%;
+		width: 25%;
 	}
+    .service-img {
+        height: 125px;
+    }
 }
 @media screen and (min-width: 1200px ) and (max-width: 1200px) {
 	.responsive {
@@ -2448,10 +2464,20 @@ ul.cat li a:hover {
     #contact-form {
         display: flex;
     }
+    .latest-news {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .service-img {
+        height: 300px;
+    }
 }
 @media screen and (min-width: 1600px )  {
 	.main-menu ul li a {
 		font-size: 24px;
 	}
+    .service-img {
+        height: 350px;
+    }
 }
 
