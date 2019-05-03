@@ -823,8 +823,9 @@ div.row.center-align {
 
 .faq-box .btn-link {
 	font-weight: 400;
-	/*color: #0f1328;*/
-	background-color: #f8f7ff;
+	color: #ffffff !important;
+	background-color: rgba(29,28,46, 0.9) ;
+    /*#f8f7ff*/
 	display: block;
 	font-size: 16px;
 	padding: 26px 86px;
@@ -833,7 +834,9 @@ div.row.center-align {
 	line-height: 28px;
 	border-radius: 45px;
 }
-
+.faq-box .btn-link:focus {
+    color: #ffffff!important;
+}
 .faq-box .card-header {
 	padding: 0;
 	border-bottom: 0;
@@ -856,7 +859,7 @@ div.row.center-align {
 	background-clip: border-box;
 	border: 0;
 	border-radius: 45px;
-	background: #F8F7FF;
+	background: rgba(29,28,46, 0.2);
 	margin-bottom: 20px;
 }
 
