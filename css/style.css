@@ -877,11 +877,11 @@ div.row.center-align {
 }
 
 .faq-box .btn-link.collapsed::before {
-	content: "+";
+	content: "⋁";
 }
 
 .faq-box .btn-link::before {
-	content: "-";
+	content: "⋀";
 	line-height: 30px;
 	position: absolute;
 	left: 43px;
